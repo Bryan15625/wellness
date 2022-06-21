@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wellness</title>
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do-List</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>To-Do-List</h1>
+            <p> Enter a new task below <br>
+                Click "+" to add it onto the task list <br>
+                Click on a completed task to cross it out <br>
+                Double click on an underlined task to remove a task
+            </p>
+        <input id="inputField" type="text" placeholder="Enter a new task...">
+        <button id="addToDo">+</button>
+        <div class="to-dos" id="toDoContainer">
+    </div>
+    <div class="container">
+        <h1>Reflect on Your Day</h1>
+        <p> 
+            <br> Write about what is troubling you below
+            <br> Double click on a passage to remove it
+        </p>
+        <input id="inputField2" type="text" placeholder="Write about your day...">
+        <button id="addToDo2">+</button>
+        <div class="to-dos2" id="toDoContainer2">
+    </div>
+    <script src="main.js"></script>
 </body>
 </html>
